@@ -8,7 +8,7 @@ import { appointmentData } from '../helper/data';
 const Home = () => {
     const [appointments, setAppointments]=useState(appointmentData);
 
-    //Burada AppointmentList içerisine gidecek fonksiyonları yazıyorum
+    //Burada AppointmentList içerisine gidecek fonksiyonları yazıyorum.
     //yeni obje basacağım için onu appointments içerisine atıyorum
     const handleAddApp=(newAppointment)=>{
         setAppointments([...appointments, newAppointment])
