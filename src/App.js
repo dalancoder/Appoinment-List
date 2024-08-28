@@ -1,23 +1,13 @@
-import React from 'react';
-import List from './components/List';
+import React from 'react'
+import Home from './pages/Home'
+import "./App.css"
 
 function App() {
- 
   return (
-    <main>
-      <section className="container">
-        <h3>Employee List</h3>
-        <h5>
-          (Employees 1 to 5)
-        </h5>
-        <List />
-        <div className='btns'>
-          <button >Prev</button>
-          <button >Next</button>
-        </div>
-      </section>
-    </main>
-  );
+   <div>
+    <Home/>
+   </div>
+  )
 }
 
-export default App;
+export default App
